@@ -8,6 +8,9 @@
 *.so
 *.aux
 *.out
+*.pyc
+*.pyo
+*~
 
 # Packages #
 ############
