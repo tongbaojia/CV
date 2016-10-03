@@ -1,0 +1,67 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,11pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{{Figures/}} %upload your signature to this file
+%Change the margins to fit your CV/resume content
+\usepackage[left=1in, right=1in, bottom=1.25in, top=1.25in]{geometry}
+\clearpage
+\setlength\parindent{0cm}
+\pagenumbering{gobble} %cover letter should be one page, {gobble}=no page number
+\vspace*{\dimexpr-\baselineskip-\topskip\relax}
+
+\begin{document}
+%%%%my info
+\begin{minipage}{.5\textwidth}
+  \includegraphics[height=7em]{Harvard}
+\end{minipage}
+\begin{minipage}{.5\textwidth}
+\begin{flushright}
+ \today                           \\
+ \vspace{1em}                              
+ Harvard University            \\
+ Physics Department                  \\
+ 17th Oxford Street                       \\
+ Cambridge, MA. 02138   \\
+ Phone: +1 (617) 710-9767         \\
+\href{mailto:baojia.tong@fas.harvard.edu}{baojia.tong@fas.harvard.edu}  \\ 
+\end{flushright}
+\end{minipage}
+%%%%target info
+%\begin{flushleft}
+% \textbf{Faculty Search Committee}         \\
+%Name of University \\
+%Name of Department \\
+%\end{flushleft}
+
+%%%%main text
+\vspace{2em}
+\textbf{XXX}\\
+To Whom It May Concern, \\
+
+\onehalfspacing
+\paragraph{}
+My name is Baojia (or you may have known me as Tony) Tong and I'm applying to the academic position in \textbf{XXX} at the \textbf{XXX}. I am a member of ATLAS collaboration, and also a Ph.D. candidate at Harvard University while planing to complete my Ph.D. in May 2017.
+
+\paragraph{}
+My educational background is in this and that at the former university along with an earned Master's and Ph.D. degree in this recent subject at this alma mater. I have taught this, that, and everything else. My research is in this area, that area, and another area still.
+
+\paragraph{}
+Included in this application is research statement and a curriculum vitae, which also contains the list of publications. My dissertation advisor Melissa Franklin, Professor Mel Shochet, Dr. Christoph Amelung and Dr. Michael Kagan have been extremely helpful and instrumental throughout my time at Harvard University and CERN. Thus, I have requested four letters of recommendation from them to be submitted to \textbf{XXX}.
+
+\paragraph{}
+Thanks for your time and consideration!
+
+\begin{flushright}
+Sincerely, \\
+\vspace{1em} 
+%\includegraphics[scale=0.4]{Phillips} \\ %insert your own signature here
+\vspace{1em} 
+Baojia Tong \\
+\end{flushright}
+
+\end{document}
+
