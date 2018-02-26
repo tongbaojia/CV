@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,11pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{{images/}} %upload your signature to this file
+%Change the margins to fit your CV/resume content
+\usepackage[left=1in, right=1in, bottom=1in, top=1in]{geometry}
+\usepackage[usenames,dvipsnames]{xcolor}
+%Skype information - include your Skype name for a link to add you on Skype
+\newcommand*{\Skype}{\href{skype:baojia.tong?add}{baojia.tong}} 
+\newcommand{\Absender}[1][\normalsize]{\Skype} 
+\newcommand{\crimson}[1]{\textcolor[rgb]{0.67, 0.11, 0.188}{#1}}
+\newcommand{\blue}[1]{\textcolor[rgb]{0,0,0.9}{#1}}
+
+%Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
+\noindent  \center \LARGE{\textbf{Baojia(Tony) Tong}}  \\
+%\noindent\makebox[\linewidth]{\rule{0.8\paperwidth}{0.4pt}}
+\vspace{1cm}
+\normalsize
+%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
+% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
+\begin{center}
+\begin{tabular}{l l}
+ Harvard University           & \hspace{1.25in} \href{mailto:btong@fas.harvard.edu}{btong@fas.harvard.edu} \\
+ Department of Physics    & \hspace{1.25in} Web: \blue{\href{http://btong.web.cern.ch/btong/}{http://btong.web.cern.ch/btong/}}   \\
+ 17 Oxford Street              & \hspace{1.25in} Skype: \Absender  \\
+ Cambridge, MA 02138     & \hspace{1.25in} Phone: +1 (617) 710-9767 \\
+\end{tabular}
+\end{center}
+\noindent\makebox[\linewidth]{\rule{0.8\paperwidth}{1.5pt}}
+%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+%%%%%%%%Education%%%%%%%%
+\raggedright
+\normalsize
+\begin{flushleft}
+\textbf{\Large{Education}} \\
+\vspace{0.5cm}
+ \begin{tabular}{@{} l}
+     \textbf{Harvard University}, Massachusetts, MA \\
+     Ph.D., Physics, expected 2018; M.A., Physics, 2014 \\
+%     Thesis: Search for di-Higgs decay to $b\bar{b}b\bar{b}$ at ATLAS \\
+%     Committee: Profs. Melissa Franklin (Adviser), Masahiro Morii, Howard Georgi \\
+     \\
+     \textbf{California Institute of Technology}, California, CA \\
+     B.A. with honors, Physics, 2012 \\
+     \\
+ \end{tabular}
+\end{flushleft}
+ %%%%%%%%Research Experience%%%%%%%%
+ \raggedright
+ \textbf{\Large{Research Experience}} \\
+ \normalsize
+\begin{flushleft}
+ \begin{tabular}{@{} l}
+    \textbf{Harvard University} \\ 
+    %\vspace{0.2cm}
+    \begin{tabular}{@{} l l }
+ %Class Projects in Machine Learning: CS181 and CS281 at Harvard & 2017\\
+ Optimize selection using Machine Learning Algorithms ($W^{\pm} W^{\pm} W^{\mp}$) & 2017-present\\
+ Search for signal in multi-dimensional backgrounds (di-Higgs $\to b\bar{b}b\bar{b}$) & 2015-present\\
+ Develop and improve Hough Transform seeding in reconstruction (Muon) & 2015-2016\\
+ Design and code monitoring software for reconstruction algorithms (Muon) & 2015-2016\\
+ Organise and monitor data quality (Muon offline) & 2015\\
+ Prospective study using boosted decision trees (di-Higgs $\to WW\tau\tau$) & 2014\\
+ Calibration of prototype detector chambers (Micromegas) & 2014\\
+ Evaluate detector reconstruction performance (Muon Segment) & 2012-2013\\
+    \hspace{0.8\linewidth} & \hspace{0.1\linewidth} \\
+     \end{tabular}
+     \\
+     \textbf{California Institute of Technology} \\
+     %\vspace{0.2cm}
+     \begin{tabular}{@{} l l }
+ Analyze higher order behaviors in high energy physics data ($W/Z$ + jets) &2011-2012\\
+ Design and thermal validation of an optical sensor for telescopes &2009-2010\\
+ Design and study of a financial market convergence experiment &2009-2010\\
+ Test novel methods of space launching &2008-2009\\
+    \hspace{0.8\linewidth} & \hspace{0.1\linewidth} \\
+      \end{tabular}
+      \end{tabular}
+\end{flushleft}
+ %%%%%%%%Teaching%%%%%%%%
+\raggedright
+\textbf{\Large{Teaching Experience}} \\
+\vspace{-0.5cm}
+ \normalsize
+\begin{flushleft}
+\hspace{1cm}
+    \begin{tabular}{@{} l l }
+ %Guided summer student Gray Putnam's research & 2016\\
+ %Guided summer student Michael Albergo's research & 2015\\
+ Harvard Teaching Fellow, PhySci 12, Electromagnetism, Qscore 4.55/5  & 2017\\
+ Harvard Teaching Fellow, Physics 125, Widely Applied Physics, Qscore 4.33/5  & 2014\\
+ Harvard Teaching Fellow, Physics 16, Mechanics \& Relativity, Qscore 4.47/5 & 2013\\
+ Caltech Teaching Assistant, Physics 50, Physics League & 2011-2012\\
+    \hspace{0.8\linewidth} & \hspace{0.1\linewidth} \\
+     \end{tabular}
+\end{flushleft}
+\vspace{-0.25cm}
+
+ %%%%%%%%Languges Skills%%%%%%%%
+ \raggedright
+ \textbf{\Large{Languages and Programming Skills}} \\
+ \normalsize
+ \begin{flushleft}
+ %\hspace{1cm}
+ \begin{tabular}{@{} l}
+     Chinese (native), English (proficient), French (elementary)\\
+     C++, HTML, \LaTeX, Matlab, Mathematica, Python, ROOT \\
+     \\
+      \end{tabular}
+\end{flushleft}
+
+
+
+\clearpage
+\end{document}
