@@ -1,5 +1,8 @@
 # CV
-This is baojia(tony) tong's personal CV. Feel free to look. I used a latex template, of course~
+This is Baojia(Tony) Tong's personal CV. Feel free to look. I used a latex template, of course~
+
+# RS
+This is Baojia(Tony) Tong's personal resume.
 
 # CL
-This also includes tony's Cover Leter template.
+This also includes Tony's Cover Leter template.
