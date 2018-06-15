@@ -11,9 +11,14 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 %Skype information - include your Skype name for a link to add you on Skype
 \newcommand*{\Skype}{\href{skype:baojia.tong?add}{baojia.tong}} 
-\newcommand{\Absender}[1][\normalsize]{\Skype} 
+\newcommand{\Absender}[1][\normalsize]{\Skype}
 \newcommand{\crimson}[1]{\textcolor[rgb]{0.67, 0.11, 0.188}{#1}}
 \newcommand{\blue}[1]{\textcolor[rgb]{0,0,0.9}{#1}}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULthickness}{1pt}
+\usepackage{enumitem}
+
+
 
 %Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
 \pagenumbering{gobble}
@@ -21,101 +26,119 @@
 %%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 %%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
-\noindent  \center \LARGE{\textbf{Baojia(Tony) Tong}}  \\
+\noindent  \center \LARGE{\textbf{Baojia(Tony)   Tong}}  \\
 %\noindent\makebox[\linewidth]{\rule{0.8\paperwidth}{0.4pt}}
-\vspace{1cm}
+\vspace{0.5cm}
 \normalsize
 %%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
 % Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
 \begin{center}
 \begin{tabular}{l l}
- Harvard University           & \hspace{1.25in} \href{mailto:btong@fas.harvard.edu}{btong@fas.harvard.edu} \\
- Department of Physics    & \hspace{1.25in} Web: \blue{\href{http://btong.web.cern.ch/btong/}{http://btong.web.cern.ch/btong/}}   \\
- 17 Oxford Street              & \hspace{1.25in} Skype: \Absender  \\
- Cambridge, MA 02138     & \hspace{1.25in} Phone: +1 (617) 710-9767 \\
+ \textit{Location}: Boston, MA                             
+ & \hspace{1.01in} \textit{GitHub}: https://github.com/tongbaojia \\
+ \textit{Phone}: +1 (617) 710-9767	            
+ & \hspace{1.01in} \textit{Website}: https://tongbaojia.github.io   \\
+ \textit{Email}: tongbaojia@gmail.com            
+ & \hspace{1.01in} \textit{LinkedIn}: www.linkedin.com/in/baojiatonytong  \\
 \end{tabular}
 \end{center}
-\noindent\makebox[\linewidth]{\rule{0.8\paperwidth}{1.5pt}}
+%\noindent\makebox[\linewidth]{\rule{0.8\paperwidth}{1.5pt}}
 %%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
-% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+
+ \vspace{0.1cm}
+ %%%%%%%%Languges Skills%%%%%%%%
+ \raggedright
+ \textbf{\Large{\crimson{S}kills}} \sout{\hfill} \\
+ \normalsize
+ \begin{flushleft}
+ %\hspace{1cm}
+ \begin{tabular}{@{} l l }
+     \textbf{Languages} & Python, C\texttt{++}, Chinese \\
+     \textbf{Packages} & Pandas, Flask, NumPy, Sklearn, XGBoost, ROOT \\
+     \textbf{Tools} & HTML, \LaTeX, Bash, SVN, Git \\
+     \\
+      \end{tabular}
+\end{flushleft}
+
+ \vspace{-0.25cm}
+ %%%%%%%%Research Experience%%%%%%%%
+ \raggedright
+ \textbf{\Large{\crimson{E}xperience}} \sout{\hfill} \\
+ \normalsize
+  %%%%%%%%%%%%
+\begin{flushleft}
+ \vspace{-0.35cm}
+ \begin{tabular}{@{} l l }
+    \hspace{0.8\linewidth} & \hspace{0.1\linewidth} \\
+    \textbf{Insight} & Boston, MA \\ 
+    \textit{Data science fellow} & 2018-present \\ 
+ \end{tabular}
+ \end{flushleft}
+ \begin{flushleft}
+ \begin{small}
+ \begin{itemize}[leftmargin=*]
+ \item Formulated a web-app to convert live meeting into key memos in a fast, private and interpretable fashion
+ \item Streamlined an \textbf{audio recognition} software to convert sound files into texts
+ \item Integrated \textbf{natural language processing tools} for summarization and highlights
+ \end{itemize}
+ \end{small}
+ \end{flushleft}
+ %%%%%%%%%%%%
+ \begin{flushleft}
+ \vspace{-0.15cm}
+ \begin{tabular}{@{} l l }
+    \hspace{0.6\linewidth} & \hspace{0.2\linewidth} \\
+    \textbf{Harvard University} & Cambridge, MA; Geneva, Switzerland \\ 
+    \textit{Ph.D. student} & \hspace{0.195\linewidth} 2012-2018 \\ 
+ \end{tabular}
+ \end{flushleft}
+ \begin{flushleft}
+  \begin{small}
+ \begin{itemize}[leftmargin=*]
+  \item Searched for double Higgs Boson production at CERN's LHC, \textbf{tripled the search sensitivity} by introducing novel signal regions, \textbf{improved background modeling} by correcting modeling effects; published as thesis
+  \item Optimized selection using XGBoost to double the search sensitivity for rare triple boson signals
+  \item Implemented a second order correction in Hough Transform extrapolation in C\texttt{++}, \textbf{reduced the fake local reconstruction rate} by $50\%$, and \textbf{conserved hundreds of hours of reconstruction time} every day
+   \item\textbf{Designed live monitoring software} for reconstruction algorithms and detector performance, inspected and resolved bugs and detector malfunctions in days
+  \item \textbf{Organized weekly meetings} for monitoring software development, with a team of ten people within the international collaboration
+  \item Taught undergraduate analytical physics sections, introduction to electronics and experiment analysis in python, \textbf{received teaching awards}
+ \end{itemize}
+  \end{small}
+ \end{flushleft}
+ %%%%%%%%%%%%
+ \begin{flushleft}
+ \vspace{-0.15cm}
+ \begin{tabular}{@{} l l }
+    \hspace{0.8\linewidth} & \hspace{0.1\linewidth} \\
+    \textbf{California Institute of Technology} & Pasadena, CA \\ 
+    \textit{Undergraduate student} & 2008-2012 \\ 
+ \end{tabular}
+ \end{flushleft}
+ \begin{flushleft}
+  \begin{small}
+ \begin{itemize}[leftmargin=*]
+ \item Analyzed particle collision data, measured higher order fragmentation behaviors in unprobed kinematic regions
+ \item Developed an optical position sensor, validated its stability under different thermal conditions
+ \item Designed and conducted multiple double auction convergence experiments, analyzed the data; published paper
+ \end{itemize}
+  \end{small}
+ \end{flushleft}
+
+ \vspace{0.5cm}
 %%%%%%%%Education%%%%%%%%
 \raggedright
 \normalsize
 \begin{flushleft}
-\textbf{\Large{Education}} \\
+ \textbf{\Large{\crimson{E}ducation}} \sout{\hfill} \\
 \vspace{0.5cm}
- \begin{tabular}{@{} l}
-     \textbf{Harvard University}, Massachusetts, MA \\
-     Ph.D., Physics, expected 2018; M.A., Physics, 2014 \\
+\begin{tabular}{@{} l l }
+     \textbf{Harvard University}, 2018 & Ph.D., Physics\\
 %     Thesis: Search for di-Higgs decay to $b\bar{b}b\bar{b}$ at ATLAS \\
 %     Committee: Profs. Melissa Franklin (Adviser), Masahiro Morii, Howard Georgi \\
-     \\
-     \textbf{California Institute of Technology}, California, CA \\
-     B.A. with honors, Physics, 2012 \\
-     \\
- \end{tabular}
+     \textbf{California Institute of Technology}, 2012 &  B.A. with honors, Physics \\
+     \hspace{0.72\linewidth} & \hspace{0.25\linewidth} \\
+\end{tabular}
 \end{flushleft}
- %%%%%%%%Research Experience%%%%%%%%
- \raggedright
- \textbf{\Large{Research Experience}} \\
- \normalsize
-\begin{flushleft}
- \begin{tabular}{@{} l}
-    \textbf{Harvard University} \\ 
-    %\vspace{0.2cm}
-    \begin{tabular}{@{} l l }
- %Class Projects in Machine Learning: CS181 and CS281 at Harvard & 2017\\
- Optimize signal selection using Machine Learning Algorithms ($W^{\pm} W^{\pm} W^{\mp}$) & 2017-present\\
- Search for signal in large, multi-dimensional backgrounds (di-Higgs $\to b\bar{b}b\bar{b}$) & 2015-present\\
- Improve Hough Transform in data preselection (Muon reconstruction) & 2015-2016\\
- Design and write monitoring software for reconstruction algorithms (Muon) & 2015-2016\\
- Organize and monitor data quality (Muon offline) & 2015\\
- Prospective study using boosted decision trees (di-Higgs $\to WW\tau\tau$) & 2014\\
- Calibration of prototype detector chambers (Micromegas) & 2014\\
- Evaluate detector reconstruction performance (Muon Segment) & 2012-2013\\
-    \hspace{0.8\linewidth} & \hspace{0.1\linewidth} \\
-     \end{tabular}
-     \\
-     \textbf{California Institute of Technology} \\
-     %\vspace{0.2cm}
-     \begin{tabular}{@{} l l }
- Analyze higher order behaviors in high energy physics data ($W/Z$ + jets) &2011-2012\\
- Design and validate an optical sensor under different thermal conditions &2009-2010\\
- Design, conduct and analyze a double auction convergence experiment &2009-2010\\
- Test novel methods of space launching &2008-2009\\
-    \hspace{0.8\linewidth} & \hspace{0.1\linewidth} \\
-      \end{tabular}
-      \end{tabular}
-\end{flushleft}
- %%%%%%%%Teaching%%%%%%%%
-\raggedright
-\textbf{\Large{Teaching Experience}} \\
- \normalsize
-\begin{flushleft}
-    \begin{tabular}{@{} l l }
- %Guided summer student Gray Putnam's research & 2016\\
- %Guided summer student Michael Albergo's research & 2015\\
- Harvard Teaching Fellow, PhySci 12, Electromagnetism, Qscore 4.55/5  & 2017\\
- Harvard Teaching Fellow, Physics 125, Widely Applied Physics, Qscore 4.33/5  & 2014\\
- Harvard Teaching Fellow, Physics 16, Mechanics \& Relativity, Qscore 4.47/5 & 2013\\
- Caltech Teaching Assistant, Physics 50, Physics League & 2011-2012\\
-    \hspace{0.8\linewidth} & \hspace{0.1\linewidth} \\
-     \end{tabular}
-\end{flushleft}
-\vspace{-0.25cm}
 
- %%%%%%%%Languges Skills%%%%%%%%
- \raggedright
- \textbf{\Large{Languages and Programming Skills}} \\
- \normalsize
- \begin{flushleft}
- %\hspace{1cm}
- \begin{tabular}{@{} l}
-     Chinese (native), English (proficient), French (elementary)\\
-     C++, HTML, \LaTeX, Matlab, Mathematica, Python, ROOT \\
-     \\
-      \end{tabular}
-\end{flushleft}
 
 
 
