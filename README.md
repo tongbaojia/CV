@@ -1,8 +1,12 @@
-# CV
-This is Baojia(Tony) Tong's personal CV. Feel free to look. I used a latex template, of course~
+# Professional Documents
 
-# RS
-This is Baojia(Tony) Tong's personal resume.
+This repository contains my professional documents, including my resume, CV, and cover letter template.
 
-# CL
-This also includes Tony's Cover Leter template.
+## [RS (Resume)](RS_Tony-Tong.pdf)
+A concise one-page resume highlighting my professional experience, skills, and education.
+
+## [CV (Curriculum Vitae)](CV_Tony-Tong.pdf)
+A comprehensive curriculum vitae with detailed information about my academic and professional background.
+
+## [CL (Cover Letter)](CL_Tony-Tong.pdf)
+A cover letter template for professional applications.
